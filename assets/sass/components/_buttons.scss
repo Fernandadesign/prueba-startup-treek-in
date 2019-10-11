@@ -1,0 +1,38 @@
+.button{
+  margin: 2px;
+  padding: 2px;
+  width: 150px;
+  height: 40px;
+  font-family: $raleway;
+  font-weight: bold;
+  border: none;
+  display: inline;
+
+  //iniciar sesión
+  &--login:focus{
+    background-color: $lavender-gray;
+    color: $white;
+  }
+
+  &--login{
+  background-color: $white;
+  color: $nickel;
+  }
+
+  &--login:hover{
+    background-color: $lavender-gray;
+    color: $white;
+  }
+
+  //registrarse
+  &--sign-up{
+    background-color: $ball-blue;
+    color: $white;
+  }
+
+  &--sign-up:hover{
+    background-color: $middle-blue;
+    color: $white;
+  }
+
+}
